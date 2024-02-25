@@ -58,12 +58,12 @@ const ProjectSection = () => {
               A skincare app that helps you keep track of your routines, the health of your skin etc.
             </p>
             <a
-              href="https://github.com/your-username/project-2"
+              href="https://www.figma.com/proto/ilhNIbKtPBDrhOgcqF1nla/Skincare-app?type=design&node-id=104-918&t=nNbS61duOs2FMiBw-1&scaling=scale-down&page-id=104%3A917&starting-point-node-id=104%3A918&mode=design"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline"
             >
-              View on GitHub
+              View on Figma
             </a>
           </div>
           {/* Lyxfällan Bingo */}
