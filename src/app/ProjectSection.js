@@ -50,10 +50,10 @@ const ProjectSection = () => {
           <div className={`${state.theme === "light" ? "bg-white" : "bg-gray-900"} p-6 rounded-lg shadow-md`}>
             <div className="flex flex-row justify-evenly mb-4">
               <h3 className="text-xl font-semibold">Skincare App</h3>
-              <Image src="/figma-logo.svg" width={20} height={20} className="w-5"/>
+              <Image src="/figma-logo.svg" alt="Figma Logo" width={20} height={20} className="w-5"/>
             </div>
             <div className="w-96 h-96 mb-5">
-                <Image src="/figmaapp.png" className="rounded" width={384} height={384} objectFit="cover" />
+                <Image src="/figmaapp.png" alt="Figma App" className="rounded" width={384} height={384} objectFit="cover" />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
               A skincare app that helps you keep track of your routines, the health of your skin etc.
@@ -80,7 +80,7 @@ const ProjectSection = () => {
                 <Image src="/lyxbingo.png" alt="Bingo Image" width={384} height={384} className="rounded" objectFit="cover" />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
-              Similar concept as for House Bingo, but this time it's about economically irresponsible Swedes.
+              Similar concept as for House Bingo, but this time it&apos;s about economically irresponsible Swedes.
             </p>
             <div className="flex justify-around">
               <a
