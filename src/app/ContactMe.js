@@ -8,7 +8,7 @@ const ContactMe = () => {
       <h1 className="text-3xl font-semibold mb-4">Contact Me</h1>
       <div className={`${state.theme === "light" ? "bg-white" : "bg-gray-800"} ${state.theme === "light" ? "text-gray-800" : "text-white"} max-w-lg p-10 rounded`}>
         <p className="mb-4">
-          Have a question or want to get in touch? Drop me a message using the form below and I'll get back to you as soon as possible.
+          Have a question or want to get in touch? Drop me a message using the form below and I&apos;ll get back to you as soon as possible.
         </p>
         <form className="space-y-4">
           <div>
