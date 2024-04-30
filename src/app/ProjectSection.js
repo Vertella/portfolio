@@ -1,5 +1,6 @@
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
+import Image from "next/image";
 
 
 const ProjectSection = () => {
@@ -15,13 +16,13 @@ const ProjectSection = () => {
             <div className="flex flex-row mb-4 w-full justify-evenly">
               <h3 className="text-xl font-semibold">House Bingo</h3>
               <div className="flex flex-row">
-                <img src="javascript.svg" className="w-6"/>
-                <img src="html.svg" className="w-7"/>
-                <img src="css.svg" className="w-7"/>
+                <Image src="/javascript.svg" alt="Javascript Icon" width={24} height={24}/>
+                <Image src="/html.svg" alt="HTML Icon" width={28} height={28}/>
+                <Image src="/css.svg" alt="CSS Icon" width={28} height={28}/>
               </div>
             </div>
             <div className="w-96 h-96 overflow-hidden mb-5">
-                <img src="hbingo.png" className="rounded"></img>
+              <Image src="/hbingo.png" alt="Bingo Image" width={384} height={384} className="rounded" />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
               A version of bingo where you fill out your board in response to what happens in the show House MD.
@@ -49,10 +50,10 @@ const ProjectSection = () => {
           <div className={`${state.theme === "light" ? "bg-white" : "bg-gray-900"} p-6 rounded-lg shadow-md`}>
             <div className="flex flex-row justify-evenly mb-4">
               <h3 className="text-xl font-semibold">Skincare App</h3>
-              <img src="figma-logo.svg" className="w-5"/>
+              <Image src="/figma-logo.svg" width={20} height={20} className="w-5"/>
             </div>
             <div className="w-96 h-96 mb-5">
-                <img src="figmaapp.png" className="rounded" style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
+                <Image src="/figmaapp.png" className="rounded" width={384} height={384} objectFit="cover" />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
               A skincare app that helps you keep track of your routines, the health of your skin etc.
@@ -71,12 +72,12 @@ const ProjectSection = () => {
           <div className="flex flex-row mb-4 w-full justify-evenly">
               <h3 className="text-xl font-semibold">Lyxfällan Bingo</h3>
               <div className="flex flex-row">
-                <img src="javascript.svg" className="w-6"/>
-                <img src="html.svg" className="w-7"/>
-                <img src="css.svg" className="w-7"/>
+                <Image src="/javascript.svg" alt="Javascript Icon" width={24} height={24}/>
+                <Image src="/html.svg" alt="HTML Icon" width={28} height={28}/>
+                <Image src="/css.svg" alt="CSS Icon" width={28} height={28}/>
               </div>
             </div>            <div className="w-96 h-96 mb-5">
-                <img src="lyxbingo.png" className="rounded" style={{ width: '100%', height: '100%', objectFit: 'cover' }}></img>
+                <Image src="/lyxbingo.png" alt="Bingo Image" width={384} height={384} className="rounded" objectFit="cover" />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
               Similar concept as for House Bingo, but this time it's about economically irresponsible Swedes.
