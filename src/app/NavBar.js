@@ -1,6 +1,6 @@
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
-import ThemeSwitcher from "./ThemeSwitcher";
+import ThemeSwitcher from "../components/ThemeSwitcher";
 
 const NavBar = () => {
     const { state } = useTheme();

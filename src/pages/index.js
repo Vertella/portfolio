@@ -1,7 +1,7 @@
-import NavBar from "../components/NavBar";
-import HeroSection from "../components/HeroSection";
-import ProjectSection from "../components/ProjectSection";
-import ContactMe from "../components/ContactMe";
+import NavBar from "../app/NavBar";
+import HeroSection from "../app/HeroSection";
+import ProjectSection from "../app/ProjectSection";
+import ContactMe from "../app/ContactMe";
 
 
 

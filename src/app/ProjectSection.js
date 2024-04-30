@@ -28,7 +28,7 @@ const ProjectSection = () => {
             </p>
             <div className="flex justify-around">
               <a
-                href="https://vertella.github.io/housebingo/"
+                href="https://vertella.github.io/house-bingo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:underline"
