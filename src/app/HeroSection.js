@@ -1,5 +1,6 @@
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
+import Image from "next/image";
 
 const scrollToBottom = () => {
     const element = document.getElementById('contact');
@@ -23,7 +24,7 @@ const HeroSection = () => {
             </div>
             <div className="flex justify-center mt-8">
                 <div style={{ borderRadius: '50%', overflow: 'hidden', width: '150px', height: '150px' }}>
-                    <img src="https://i.imgur.com/blRkjW1.jpeg" alt="Nessie" style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
+                    <Image src="https://i.imgur.com/blRkjW1.jpeg" alt="Nessie" width={150} height={150} />
                 </div>
             </div>
         </div>
