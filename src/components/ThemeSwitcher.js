@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const ThemeSwitcher = () => {
   const { state, dispatch } = useTheme();
