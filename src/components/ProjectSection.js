@@ -53,7 +53,7 @@ const ProjectSection = () => {
               <Image src="/figma-logo.svg" alt="Figma Logo" width={20} height={20} className="w-5"/>
             </div>
             <div className="w-96 h-96 mb-5">
-                <Image src="/figmaapp.png" alt="Figma App" className="rounded" width={384} height={384} objectFit="cover" />
+                <Image src="/figmaapp.png" alt="Figma App" className="rounded" width={384} height={384} style={{ objectFit: 'cover' }} />
             </div>
             <p className={`${state.theme === "light" ? "text-gray-800" : "text-white"} mb-4 w-96`}>
               A skincare app that helps you keep track of your routines, the health of your skin etc.
