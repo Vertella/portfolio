@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const ThemeSwitcher = () => {
   const { state, dispatch } = useTheme();
@@ -13,25 +13,26 @@ const ThemeSwitcher = () => {
 
   return (
     <button
-      className="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded"
+      className={`${
+        state.theme === "light" ? "bg-gray-300 hover:bg-gray-400" : "bg-gray-700 hover:bg-gray-500"
+      } text-white py-2 px-4 rounded flex items-center justify-center`}
       onClick={toggleTheme}
     >
-      {state.theme === "light" ? <Image
-            src="/sun.svg"
+      {state.theme === "light" ? (
+        <Image
+            src="/moon.svg"
             alt="Sun"
             width={24}
             height={24}
-            className="w-6 h-6 ml-2"
-          /> : (
-        <>
+            className="w-6 h-6"
+          />) : (
           <Image
-            src="/moon.svg"
+            src="/sun.svg"
             alt="Moon"
             width={24}
             height={24}
-            className="w-6 h-6 ml-2"
+            className="w-6 h-6"
           />
-        </>
       )}
     </button>
   );

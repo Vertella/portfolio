@@ -1,28 +1,31 @@
 import React from "react";
 import { useTheme } from "../contexts/ThemeContext";
 import ThemeSwitcher from "../components/ThemeSwitcher";
-import Image from "next/legacy/image";
+import Image from "next/image";
+import Link from 'next/link';
 
 const NavBar = () => {
     const { state } = useTheme();
     return (
-        <nav className={`${state.theme === "light" ? "bg-white" : "bg-gray-900"} ${state.theme === "light" ? "text-gray-800" : "text-white"} py-4`}>
-            <div className="flex justify-between items-center"> 
-                <div className="ml-5 w-12 h-12 rounded-full overflow-hidden">
-                    <Image src="https://i.imgur.com/blRkjW1.jpeg" alt="Nessie" width={48} height={48} style={{ objectFit: "cover" }}/>
+        <nav className={`${state.theme === "light" ? "bg-zinc-100" : "bg-gray-900"} ${state.theme === "light" ? "text-gray-800" : "text-white"} py-4`} role="navigation" aria-label="Main Navigation">
+            <div className="flex justify-between items-center text-center"> 
+                <div className="ml-5 w-12 h-12 rounded-full overflow-hidden sm:w-10 sm:h-10">
+                    <Image src="/veronica.jpg" alt="My picture" width={48} height={48} style={{ objectFit: "cover" }}/>
                 </div>
-                <ul className="flex space-x-4 font-medium">
+                <ul className="hidden md:flex space-x-4 font-medium">
                     <li>
-                        <a href="#about" className="hover:text-gray-300">About</a>
+                    <Link href="#about" className={`hover:${state.theme === 'light' ? 'text-gray-300' : 'text-gray-700'}`}>About
+                    </Link>
                     </li>
                     <li>
-                        <a href="#projects" className="hover:text-gray-300">Projects</a>
+                        <Link href="#projects" className={`hover:${state.theme === 'light' ? 'text-gray-300' : 'text-gray-700'}`}>Projects
+                        </Link>
                     </li>
                     <li>
-                        <a href="#contact" className="hover:text-gray-300">Contact</a>
+                        <Link href="#contact" className={`hover:${state.theme === 'light' ? 'text-gray-300' : 'text-gray-700'}`}>Contact</Link>
                     </li>
                 </ul>
-                <ThemeSwitcher />
+                <ThemeSwitcher aria-label="Toggle theme" />
             </div>
         </nav>
     );

@@ -1,5 +1,4 @@
 import { ThemeProvider } from "../contexts/ThemeContext";
-import ThemeSwitcher from "../components/ThemeSwitcher";
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 

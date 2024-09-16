@@ -29,8 +29,7 @@ const ContactMe = () => {
         </form>
       </div>
       <div className={` ${state.theme === "light" ? "text-gray-400" : "text-gray-500"} flex flex-row`}>
-        <p className="m-4">+46793046906</p>
-        <p className="m-4">veronica.rosen99@gmail.com</p>
+        <p className="m-4">Thank you for visiting my portfolio!</p>
       </div>
     </div>
   );
