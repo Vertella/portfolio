@@ -28,7 +28,7 @@ const HeroSection = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-800 to-rose-100 inline-block text-transparent bg-clip-text">Veronica</h1>
           </div>
           <p className="text-lg lg:text-xl mb-4">
-            I'm currently studying to become a Frontend Developer at Chas Academy in Stockholm, Sweden.
+            I&apos;m currently studying to become a Frontend Developer at Chas Academy in Stockholm, Sweden.
           </p>
           <p className="mb-4">
             Look below to see some of my most recent projects.

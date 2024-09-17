@@ -43,9 +43,9 @@ const ProjectSection = () => {
           />
           {/* Project 3 */}
           <ProjectCard
-            title="Lyxfällan Bingo"
-            description="Similar concept as House Bingo, but this time it’s about economically irresponsible Swedes."
-            imageSrc="/lyxbingo.png"
+            title="Planet Quiz"
+            description="Test your knowledge of our solar system and what lies beyond."
+            imageSrc="/planet-quiz.png"
             link="https://vertella.github.io/lyxfallanbingo/"
             githubLink="https://github.com/Vertella/lyxfallanbingo"
             icons={[
