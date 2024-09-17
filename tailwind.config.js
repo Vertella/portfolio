@@ -18,6 +18,9 @@ module.exports = {
       green: colors.green,
       emerald: colors.emerald,
       rose: colors.rose,
+      amber: colors.amber,
+      zinc: colors.zinc,
+      stone: colors.stone
     },
     extend: {
     },

@@ -14,21 +14,21 @@ const ThemeSwitcher = () => {
   return (
     <button
       className={`${
-        state.theme === "light" ? "bg-gray-300 hover:bg-gray-400" : "bg-gray-700 hover:bg-gray-500"
+        state.theme === "light" ? " hover:bg-gradient-to-br bg-gradient-to-tl from-zinc-600 to-blue-200" : "bg-gradient-to-tl from-rose-800 to-amber-400 hover:bg-gradient-to-br fill-slate-500"
       } text-white py-2 px-4 rounded flex items-center justify-center`}
       onClick={toggleTheme}
     >
       {state.theme === "light" ? (
         <Image
             src="/moon.svg"
-            alt="Sun"
+            alt="Moon"
             width={24}
             height={24}
             className="w-6 h-6"
           />) : (
           <Image
             src="/sun.svg"
-            alt="Moon"
+            alt="Sun"
             width={24}
             height={24}
             className="w-6 h-6"

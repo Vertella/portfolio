@@ -9,12 +9,12 @@ const ProjectSection = () => {
   return (
     <div
       id="projects"
-      className={`${state.theme === "light" ? "bg-gray-50" : "bg-gray-800"} ${
-        state.theme === "light" ? "text-gray-800" : "text-white"
-      } py-20 text-center`}
+      className={`${state.theme === "light" ? "bg-zinc-100" : "bg-zinc-800"} ${
+        state.theme === "light" ? "text-zinc-800" : "text-white"
+      } py-10 text-center`}
     >
       <div className="container mx-auto px-4 lg:px-8">
-        <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
+        <h3 className="text-3xl font-bold mb-8 text-center">My Projects</h3>
         <div className="flex flex-row justify-center gap-4 md:gap-8 lg:gap-10">
           {/* Project 1 */}
           <ProjectCard
