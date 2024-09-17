@@ -22,6 +22,7 @@ const ProjectSection = () => {
             description="A version of bingo where you fill out your board in response to what happens in the show House MD."
             imageSrc="/hbingo.png"
             link="https://vertella.github.io/house-bingo/"
+            githubLink={"https://github.com/Vertella/house-bingo"}
             icons={[
               { src: "/javascript.svg", alt: "Javascript technology icon" },
               { src: "/html.svg", alt: "HTML Icon" },
@@ -46,8 +47,8 @@ const ProjectSection = () => {
             title="Planet Quiz"
             description="Test your knowledge of our solar system and what lies beyond."
             imageSrc="/planet-quiz.png"
-            link="https://vertella.github.io/lyxfallanbingo/"
-            githubLink="https://github.com/Vertella/lyxfallanbingo"
+            link="https://solar-quiz.vercel.app/"
+            githubLink="https://github.com/Vertella/quiz-app"
             icons={[
               { src: "/javascript.svg", alt: "Javascript Icon" },
               { src: "/html.svg", alt: "HTML Icon" },

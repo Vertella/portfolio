@@ -37,8 +37,8 @@ const HeroSection = () => {
             aria-label="Scroll to contact section"
             className={`${
               state.theme === "light"
-                ? "text-white bg-gradient-to-r from-rose-400 to-amber-200"
-                : "bg-gradient-to-r from-rose-800 to-zinc-950 hover:ring-rose-800 "
+                ? "text-white bg-gradient-to-r from-rose-400 to-zinc-900"
+                : "bg-gradient-to-r from-rose-800 to-zinc-950 hover:ring-rose-800"
             } mt-8 py-2 px-4 rounded-full text-lg font-medium hover:ring-4`}
             onClick={scrollToBottom}
           >
