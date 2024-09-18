@@ -32,7 +32,7 @@ const HeroSection = () => {
             I&apos;m currently studying to become a Frontend Developer at Chas Academy in Stockholm, Sweden.
           </p>
           <p className="mb-4 pb-5">
-            Look below to see some of my most recent projects and don't forget to add me on LinkedIn!
+            Look below to see some of my most recent projects and don&apos;t forget to add me on LinkedIn!
           </p>
           <LinkedInButton />
         </div>
