@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles/globals.css or styles/scrollbar.css */
+:root {
+    --scrollbar-width: 12px;
+    --scrollbar-track-color-light: #f1f1f1;
+    --scrollbar-thumb-color-light: #888;
+    --scrollbar-thumb-hover-color-light: #555;
+    --scrollbar-track-color-dark: #333;
+    --scrollbar-thumb-color-dark: #555;
+    --scrollbar-thumb-hover-color-dark: #888;
+  }
+  
+  /* Default scrollbar style */
+  ::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color-light);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color-light);
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover-color-light);
+  }
+  
+  /* Light theme */
+  .light-theme {
+    --scrollbar-track-color: var(--scrollbar-track-color-light);
+    --scrollbar-thumb-color: var(--scrollbar-thumb-color-light);
+    --scrollbar-thumb-hover-color: var(--scrollbar-thumb-hover-color-light);
+  }
+  
+  /* Dark theme */
+  .dark-theme {
+    --scrollbar-track-color: var(--scrollbar-track-color-dark);
+    --scrollbar-thumb-color: var(--scrollbar-thumb-color-dark);
+    --scrollbar-thumb-hover-color: var(--scrollbar-thumb-hover-color-dark);
+  }
+  
+  /* Apply theme-based styles */
+  .light-theme ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color-light);
+  }
+  
+  .light-theme ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color-light);
+  }
+  
+  .light-theme ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover-color-light);
+  }
+  
+  .dark-theme ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color-dark);
+  }
+  
+  .dark-theme ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color-dark);
+  }
+  
+  .dark-theme ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover-color-dark);
+  }
+  

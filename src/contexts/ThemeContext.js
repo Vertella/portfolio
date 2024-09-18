@@ -23,7 +23,9 @@ export const ThemeProvider = ({ children }) => {
   const [state, dispatch] = useReducer(themeReducer, initialState);
   return (
     <ThemeContext.Provider value={{ state, dispatch }}>
-      {children}
+      <div className={state.theme === "light" ? "light-theme" : "dark-theme"}>
+        {children}
+      </div>
     </ThemeContext.Provider>
   );
 };

@@ -13,9 +13,9 @@ const ProjectSection = () => {
         state.theme === "light" ? "text-zinc-800" : "text-white"
       } py-10 text-center`}
     >
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-8 ">
         <h3 className="text-3xl font-bold mb-8 text-center">My Projects</h3>
-        <div className="flex flex-row justify-center gap-4 md:gap-8 lg:gap-10">
+        <div className="flex lg:flex-row flex-col md:flex-wrap justify-center gap-4 md:gap-8 lg:gap-10">
           {/* Project 1 */}
           <ProjectCard
             title="House Bingo"
