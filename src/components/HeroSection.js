@@ -1,4 +1,5 @@
 import React from "react";
+import LinkedInButton from "./LinkedInButton";
 import { useTheme } from "../contexts/ThemeContext";
 import Image from "next/image";
 
@@ -30,20 +31,10 @@ const HeroSection = () => {
           <p className="text-lg lg:text-xl mb-4">
             I&apos;m currently studying to become a Frontend Developer at Chas Academy in Stockholm, Sweden.
           </p>
-          <p className="mb-4">
-            Look below to see some of my most recent projects.
+          <p className="mb-4 pb-5">
+            Look below to see some of my most recent projects and don't forget to add me on LinkedIn!
           </p>
-          <button
-            aria-label="Scroll to contact section"
-            className={`${
-              state.theme === "light"
-                ? "text-white bg-gradient-to-r from-rose-400 to-zinc-900"
-                : "bg-gradient-to-r from-rose-800 to-zinc-950 hover:ring-rose-800"
-            } mt-8 py-2 px-4 rounded-full text-lg font-medium hover:ring-4`}
-            onClick={scrollToBottom}
-          >
-            Get in Touch
-          </button>
+          <LinkedInButton />
         </div>
         <div className="flex justify-center mt-8 rounded-full">
           <Image

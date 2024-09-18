@@ -24,9 +24,9 @@ const ProjectSection = () => {
             link="https://vertella.github.io/house-bingo/"
             githubLink={"https://github.com/Vertella/house-bingo"}
             icons={[
-              { src: "/javascript.svg", alt: "Javascript technology icon" },
-              { src: "/html.svg", alt: "HTML Icon" },
-              { src: "/css.svg", alt: "CSS Icon" },
+              { src: "/images/logos/javascript.svg", alt: "Javascript technology icon" },
+              { src: "/images/logos/html.svg", alt: "HTML Icon" },
+              { src: "/images/logos/css.svg", alt: "CSS Icon" },
             ]}
           />
           {/* Project 2 */}
@@ -37,22 +37,22 @@ const ProjectSection = () => {
             link="https://darkest-helper.vercel.app/"
             githubLink="https://github.com/Vertella/darkest-app"
             icons={[
-              { src: "/javascript.svg", alt: "Javascript Icon" },
-              { src: "/next-js.svg", alt: "HTML Icon" },
-              { src: "/tailwindcss.svg", alt: "CSS Icon" },
+              { src: "/images/logos/javascript.svg", alt: "Javascript Icon" },
+              { src: "/images/logos/next-js.svg", alt: "HTML Icon" },
+              { src: "/images/logos/tailwindcss.svg", alt: "CSS Icon" },
             ]}
           />
           {/* Project 3 */}
           <ProjectCard
             title="Planet Quiz"
             description="Test your knowledge of our solar system and what lies beyond."
-            imageSrc="/planet-quiz.png"
+            imageSrc="/images/project/planet-quiz.png"
             link="https://solar-quiz.vercel.app/"
             githubLink="https://github.com/Vertella/quiz-app"
             icons={[
-              { src: "/javascript.svg", alt: "Javascript Icon" },
-              { src: "/html.svg", alt: "HTML Icon" },
-              { src: "/css.svg", alt: "CSS Icon" },
+              { src: "/images/logos/javascript.svg", alt: "Javascript Icon" },
+              { src: "/images/logos/next-js.svg", alt: "HTML Icon" },
+              { src: "/images/logos/tailwindcss.svg", alt: "CSS Icon" },
             ]}
           />
         </div>

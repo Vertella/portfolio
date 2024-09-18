@@ -20,14 +20,14 @@ const ThemeSwitcher = () => {
     >
       {state.theme === "light" ? (
         <Image
-            src="/moon.svg"
+            src="/images/theme-toggle/moon.svg"
             alt="Moon"
             width={24}
             height={24}
             className="w-6 h-6"
           />) : (
           <Image
-            src="/sun.svg"
+            src="/images/theme-toggle/sun.svg"
             alt="Sun"
             width={24}
             height={24}

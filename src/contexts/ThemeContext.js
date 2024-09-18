@@ -3,7 +3,7 @@ import React, { createContext, useContext, useReducer } from "react";
 const ThemeContext = createContext();
 
 const initialState = {
-  theme: "light",
+  theme: "dark",
   userPreferences: {
     fontSize: "medium",
     reduceAnimations: false,
