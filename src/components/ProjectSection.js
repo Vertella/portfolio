@@ -20,7 +20,7 @@ const ProjectSection = () => {
           <ProjectCard
             title="House Bingo"
             description="A version of bingo where you fill out your board in response to what happens in the show House MD."
-            imageSrc="/hbingo.png"
+            imageSrc="/images/project/hbingo.png"
             link="https://vertella.github.io/house-bingo/"
             githubLink={"https://github.com/Vertella/house-bingo"}
             icons={[
@@ -33,7 +33,7 @@ const ProjectSection = () => {
           <ProjectCard
             title="Darkest Helper"
             description="A Darkest Dungeon Team Builder application, created to make party planning convenient and easy for everyone."
-            imageSrc="/darkest-helper.png"
+            imageSrc="/images/project/darkest-helper.png"
             link="https://darkest-helper.vercel.app/"
             githubLink="https://github.com/Vertella/darkest-app"
             icons={[

@@ -38,7 +38,7 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center mt-8 rounded-full">
           <Image
-            src="/veronica.jpg"
+            src="/images/veronica.jpg"
             alt="My picture"
             width={148}
             height={148}
