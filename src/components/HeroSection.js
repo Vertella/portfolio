@@ -29,10 +29,10 @@ const HeroSection = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-rose-800 to-rose-100 inline-block text-transparent bg-clip-text">Veronica</h1>
           </div>
           <p className="text-lg lg:text-xl mb-4">
-            I&apos;m currently studying to become a Frontend Developer at Chas Academy in Stockholm, Sweden.
+            I&apos;m now a Frontend Developer with a diploma from Chas Academy in Stockholm, Sweden. I am looking for work.
           </p>
           <p className="mb-4 pb-5">
-            Look below to see some of my most recent projects and don&apos;t forget to add me on LinkedIn!
+            Look below to see some of my most recent projects or click the button right underneath this text to view my profile on LinkedIn.
           </p>
           <LinkedInButton />
         </div>
